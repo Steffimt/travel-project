@@ -1,11 +1,13 @@
-// import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
+import guide from "../assets/icons/guide.svg";
+import shieldTick from '../assets/icons/shield-tick.svg';
+import support from '../assets/icons/support.svg';
 // import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#services", label: "Services" },
+    { href: "#contact", label: "Contact" },
 ];
 
 // export const shoes = [
@@ -23,11 +25,11 @@ export const navLinks = [
 //     },
 // ];
 
-export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
-];
+// export const statistics = [
+//     { value: '1k+', label: 'Brands' },
+//     { value: '500+', label: 'Shops' },
+//     { value: '250k+', label: 'Customers' },
+// ];
 
 // export const products = [
 //     {
@@ -52,23 +54,23 @@ export const statistics = [
 //     },
 // ];
 
-// export const services = [
-//     {
-//         imgURL: truckFast,
-//         label: "Free shipping",
-//         subtext: "Enjoy seamless shopping with our complimentary shipping service."
-//     },
-//     {
-//         imgURL: shieldTick,
-//         label: "Secure Payment",
-//         subtext: "Experience worry-free transactions with our secure payment options."
-//     },
-//     {
-//         imgURL: support,
-//         label: "Love to help you",
-//         subtext: "Our dedicated team is here to assist you every step of the way."
-//     },
-// ];
+export const services = [
+    {
+        imgURL: guide,
+        label: "Free shipping",
+        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+    },
+    {
+        imgURL: shieldTick,
+        label: "Secure Payment",
+        subtext: "Experience worry-free transactions with our secure payment options."
+    },
+    {
+        imgURL: support,
+        label: "Assistance",
+        subtext: "Our dedicated team is here to assist you every step of the way."
+    },
+];
 
 // export const reviews = [
 //     {

@@ -32,7 +32,8 @@ export default {
         "purple": "#8B4ACC"
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+        'header': '0px 2px 10px 0px rgba(0, 0, 0, 0.25)'
       },
       backgroundImage: {
         'hero': "url('assets/images/background.svg')",
