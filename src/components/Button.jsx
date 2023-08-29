@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({label, iconURL, backgroundColor, textColor, borderColor, fullWidth}) => {
   return (
-    <button className={`justify-center items-center gap-2 px-7 py-4 border font-poppins text-lg leading-none 
+    <button className={`flex justify-center items-center gap-2 px-7 py-4 border font-poppins text-lg leading-none 
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`

@@ -1,7 +1,8 @@
 import guide from "../assets/icons/guide.svg";
 import shieldTick from '../assets/icons/shield-tick.svg';
 import support from '../assets/icons/support.svg';
-// import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import customer1 from "../assets/images/customer1.svg";
+import customer2 from "../assets/images/customer2.svg";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -72,20 +73,20 @@ export const services = [
     },
 ];
 
-// export const reviews = [
-//     {
-//         imgURL: customer1,
-//         customerName: 'Morich Brown',
-//         rating: 4.5,
-//         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-//     },
-//     {
-//         imgURL: customer2,
-//         customerName: 'Lota Mongeskar',
-//         rating: 4.5,
-//         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-//     }
-// ];
+export const reviews = [
+    {
+        imgURL: customer1,
+        customerName: 'Lora Bennet',
+        rating: 4.8,
+        feedback: "“From personalized itineraries to top-notch customer service, they truly go the extra mile to create unforgettable travel experiences.”"
+    },
+    {
+        imgURL: customer2,
+        customerName: 'Morich Brown',
+        rating: 4.5,
+        feedback: "“Exceptional travel agency! Their commitment and attention to detail ensured I had an unforgettable adventure.”"
+    }
+];
 
 
 export const footerLinks = [

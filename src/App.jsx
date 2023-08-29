@@ -9,10 +9,10 @@ const App = () => (
     <section className="padding">
       <About/>
     </section>
-    <section className="bg-pale-blue padding-x py-10">
+    <section className="bg-pale-blue px-36 py-40">
       <Services/>
     </section>
-    <section className="padding">
+    <section className="px-40 pt-28 pb-36">
       <SpecialOffer/>
     </section>
     <section className="bg-pale-blue padding">

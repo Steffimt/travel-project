@@ -15,7 +15,9 @@ const Hero = () => {
           <p className="font-poppins max-w-[32rem] text-[12px] lg:text-[20px] mt-4 mb-7">
             Let's transform those daydreams into unforgettable experiences and turn your longing for adventure into a reality you can treasure.
           </p>
-          <Button label="Tell me more" className="justify-center items-center flex"/>
+          <div className="items-center flex justify-center text-center">
+            <Button label="Tell me more" className="justify-center items-center flex"/>
+          </div>
         </div>
       </div>
     </section>
