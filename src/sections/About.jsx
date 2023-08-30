@@ -1,7 +1,7 @@
 import decor from '../assets/images/decor.svg';
 const About = () => {
   return (
-    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full pl-[5rem] pr-[3rem]">
+    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full sm:pl-[5rem] sm:pr-[5rem] pl-8 pr-8">
       <div className="flex flex-1 flex-col">
         <h2 className="font-pompiere text-[60px] pb-4">
           You Are Here Because
