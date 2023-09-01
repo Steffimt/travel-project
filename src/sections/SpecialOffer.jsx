@@ -3,7 +3,7 @@ import arrowRight from '../assets/icons/arrow-right.svg';
 import Button from '../components/Button';
 const SpecialOffer = () => {
   return (
-    <section className="flex justify-wrap items-center  max-xl:flex-col-reverse gap-24">
+    <section className="flex justify-wrap items-center  max-lg:flex-col-reverse gap-24">
       <div className="flex-1"> 
         <img src={promos} width={522} height={436} className="object-contain w-full"/>
       </div>

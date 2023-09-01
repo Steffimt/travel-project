@@ -9,7 +9,7 @@ const App = () => (
     <section className="padding">
       <About/>
     </section>
-    <section className="bg-pale-blue sm:px-36 py-40 padding-x">
+    <section className="bg-pale-blue lg:px-36 py-40 padding-x">
       <Services/>
     </section>
     <section className="sm:px-40 padding-x pt-28 pb-36">
