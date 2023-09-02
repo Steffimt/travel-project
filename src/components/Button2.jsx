@@ -7,7 +7,7 @@ const Button2 = ({label, iconURL, backgroundColor, textColor, borderColor, fullW
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
         : "bg-purple text-white border-purple"
-      } rounded-full ${fullWidth && 'w-full'}"}`}
+      } w-full rounded-full ${fullWidth && 'w-full'}"}`}
       >
         {label}
         {iconURL && <img 
