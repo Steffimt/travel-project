@@ -1,4 +1,4 @@
-import Button from '../components/Button';
+import Button2 from '../components/Button2';
 const Subscribe = () => {
   return (
     <section id="contact" className="flex justify-between items-center max-lg:flex-col gap-10">
@@ -9,7 +9,7 @@ const Subscribe = () => {
         placeholder="Subscribe@travel.co"
         className="input"/>
         <div className="flex max-sm:justify-end items-center max-sm:w-full">
-          <Button label="Sign Up" fullWidth/>
+          <Button2 label="Sign Up" fullWidth/>
         </div>
       </div>
     </section>
