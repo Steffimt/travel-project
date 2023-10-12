@@ -45,7 +45,7 @@ const Nav = () => {
     <header className="padding-x py-4 z-10 w-full bg-white fixed shadow-header">
       <nav className="flex flex-col lg:flex-row justify-between">
         <div className="flex justify-between">
-          <a href="/">
+          <a href="#">
             <img src={headerlogo} alt="logo" width={171} height={66} />
           </a>
           {/* Show hamburger icon based on screen width */}
